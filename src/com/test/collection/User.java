@@ -4,7 +4,7 @@ public class User implements Comparable<User> {
 	private String fName;
 	private String lName;
 	private String gender;
-	private String address;
+	private String newAddress;
 
 	public String getfName() {
 		return fName;
