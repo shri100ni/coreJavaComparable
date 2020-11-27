@@ -3,6 +3,7 @@ package com.test.collection;
 public class User implements Comparable<User> {
 	private String fName;
 	private String lName;
+	private String gender;
 	public String getfName() {
 		return fName;
 	}
