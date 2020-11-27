@@ -3,10 +3,12 @@ package com.test.collection;
 public class User implements Comparable<User> {
 	private String fName;
 	private String lName;
+	private String address;;
+
 	public String getfName() {
 		return fName;
 	}
-	 
+
 	public void setfName(String fName) {
 		this.fName = fName;
 	}
@@ -43,8 +45,8 @@ public class User implements Comparable<User> {
 
 	@Override
 	public int compareTo(User o) {
-		
-		return this.age-o.age;
+
+		return this.age - o.age;
 	}
 
 }
